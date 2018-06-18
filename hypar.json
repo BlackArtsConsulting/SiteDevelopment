@@ -2,7 +2,7 @@
   "function": "SiteDevelopment.siteDevelopment",
   "runtime": "python3.6",
   "parameters":{
-    "diameter: {
+    "diameter": {
       "description": "Building diameter",
       "max": 500,
       "min": 100,
