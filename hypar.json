@@ -3,7 +3,7 @@
   "runtime": "python3.6",
   "parameters":{
     "diameter": {
-      "description": "Building diameter",
+      "description": "Building diameter.",
       "max": 500,
       "min": 100,
       "step": 10,
@@ -16,6 +16,7 @@
       "step": 10000,
       "type": "number"    
     },
+  },
   "returns": {
     "floors": {
       "description": "Number of floors."
