@@ -188,7 +188,7 @@ def siteDevelopment(diameter: float = 100, targetArea: float = 100000):
             mesh = space.mesh_graphic
             model.add_triangle_mesh(mesh.vertices, mesh.normals, mesh.indices, color)                  
     return {"model": model.save_base64(), 'computed':{'floors':allLevels, 'area':area}}   
-#    model.save_glb('C:\\Users\\Anthony\\Dropbox\\Business\\BlackArts\\Development\\GitHub\\siteDevelopment\\model.glb')
+#    model.save_glb('model.glb')
 #
 #siteDevelopment(diameter = uniform(50, 200), targetArea = uniform(100000, 250000))
 
